@@ -3,7 +3,8 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh; 
+  min-height: 100vh;
+  background-image: url('./img/moving_water_bkg.gif'); 
 }
 
 th {
@@ -14,8 +15,19 @@ th {
 
 td {
   padding: 5px;
+  border-radius: 5px;
 }
 
 .time {
   height: 40px;
+}
+
+.Event {
+  background-color: brown;
+  line-height: 10px;
+  border-radius: 15px;
+}
+
+.Event td .green {
+  background-color: greenyellow;
 }

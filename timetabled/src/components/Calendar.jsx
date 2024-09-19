@@ -1,4 +1,5 @@
 import React from "react";
+import Event from "./Event"
 
 // creates component Calendar (UI code to be reused)
 const Calendar = () => {
@@ -24,7 +25,8 @@ const Calendar = () => {
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        {/* event="info" is the info we pass to prop.event to display to screen */}
+                        <Event event='Fancy Dinner 🎩' color='green' location='Resturant'/>
                         <td></td>
                         <td></td>
                     </tr>
