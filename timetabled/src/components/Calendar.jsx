@@ -21,12 +21,12 @@ const Calendar = () => {
                 <tbody>
                     <tr>
                         <td className="time">8 AM</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
                         {/* event="info" is the info we pass to prop.event to display to screen */}
-                        <Event event='Fancy Dinner 🎩' color='green' location='Resturant'/>
+                        <Event event='Breakfast 🥞' color='green' location='Margos Resturant'/>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
                         <td></td>
                         <td></td>
                     </tr>
@@ -37,7 +37,7 @@ const Calendar = () => {
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <Event event='Spa 🧖🏾‍♀️' color='yellow' location='Famous Spa' span='3'/>
                         <td></td>
                     </tr>
                     <tr>
@@ -53,7 +53,7 @@ const Calendar = () => {
                     <tr>
                         <td className="time">11 AM</td>
                         <td></td>
-                        <td></td>
+                        <Event event='Hike 🥾' color='yellow' location='Tropical Rain Forest'/>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -64,7 +64,7 @@ const Calendar = () => {
                         <td className="time">12 PM</td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <Event event='Beach Day! ⛱' color='brown' location='Beach' span='5'/>
                         <td></td>
                         <td></td>
                         <td></td>
@@ -75,7 +75,7 @@ const Calendar = () => {
                         <td></td>
                         <td></td>
                         <td></td>
-                        <td></td>
+                        <Event event='Dinner' color='green' location='Olive Garden'/>
                         <td></td>
                         <td></td>
                         <td></td>

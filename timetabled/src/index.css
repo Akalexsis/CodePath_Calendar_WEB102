@@ -22,12 +22,20 @@ td {
   height: 40px;
 }
 
-.Event {
+/* .Event {
   background-color: brown;
   line-height: 10px;
   border-radius: 15px;
+} */
+
+.green {
+  background: rgb(142, 188, 72);
 }
 
-.Event td .green {
-  background-color: greenyellow;
+.yellow {
+  background-color: rgb(255, 255, 148);
+}
+
+.brown {
+  background-color: rgb(184, 110, 89);
 }
